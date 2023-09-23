@@ -1,15 +1,15 @@
 <script setup>
 import { ref } from 'vue';
 
+const header = ref(null);
 const menu = ref([
     'Home',
     'Portfolio',
     'About Me',
     'Testimonials',
 ]);
-
-var menuActive = ref('Home');
-var menuIsActive = ref(false);
+const menuActive = ref('Home');
+const menuIsActive = ref(false);
 
 function onMenuClick(menu) {
     menuActive.value = menu;
@@ -23,7 +23,7 @@ function onHamburgerClick() {
 </script>
 
 <template>
-    <header class="bg-white absolute top-0 left-0 w-full flex items-center z-10 shadow-lg">
+    <header ref="header" class="bg-white fixed top-0 left-0 w-full flex items-center z-10 shadow-lg">
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">

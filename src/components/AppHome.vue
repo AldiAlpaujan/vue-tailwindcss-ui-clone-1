@@ -1,5 +1,5 @@
 <template>
-    <section class="py-36 bg-bgShade">
+    <section class="pt-40 pb-32 bg-bgShade">
         <div class="container">
             <div class="flex flex-wrap items-center">
                 <div class="w-full px-4 lg:w-1/2">
