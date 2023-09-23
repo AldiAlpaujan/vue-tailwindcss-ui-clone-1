@@ -11,6 +11,7 @@ module.exports = {
         primary: "#5E3BEE",
         body: "#1C1E53",
         heading: "#282938",
+        bgShade: "#F5FCFF",
       },
       screens: {
         "2xl": "1320px",
